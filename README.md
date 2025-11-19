@@ -1,7 +1,9 @@
 # Predicting E-Commerce Customer Churn with Machine Learning
 
 **Dataset Name:** Ecommerce Customer Churn Analysis and Prediction  
+
 **Source:** Kaggle – Created by Ankit Verma
+
 **Dataset Link:** https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction?select=E+Commerce+Dataset.xlsx
 
 ## Introduction 
@@ -59,7 +61,7 @@ of 190 actual churners in the test set, the model correctly identified 172 (True
 and missed 18 (False Negatives). This low False Negative rate is crucial for a churn
 model, as it minimizes the number of at-risk customers who are missed.
 
-# Result and Discussion
+## Result and Discussion
 <img width="536" height="393" alt="image" src="https://github.com/user-attachments/assets/e5ce212d-7da7-4c5c-ba23-81b4201ec2bb" />
 
 EDA revealed that Tenure, Complain, and SatisfactionScore are primary churn
@@ -71,7 +73,7 @@ Business-wise, the high recall on churners means fewer at-risk customers slip
 through. With calibrated probabilities, stakeholders can set action thresholds to trigger
 offers, service outreach, or UX fixes.
 
-# Conclusion and Future Work
+## Conclusion and Future Work
 This study successfully developed a high-performance Random Forest model capable
 of predicting customer churn in an e-commerce environment with 98% accuracy and an
 ROC-AUC of 0.9987. Key drivers identified through EDA, such as Tenure, Complain, and SatisfactionScore, were shown to be critical factors.
